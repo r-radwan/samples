@@ -4,7 +4,7 @@ public class Lcation {
 	
 	private String name;
 	private int age;
-	private String contry;
+	
 	
 	public void setName(String name)
 	{
@@ -26,13 +26,5 @@ public class Lcation {
 		return age;
 	}
 
-	public void setContry(String contry)
-	{
-		this.contry = contry;
-	}
-	
-	public String getContry()
-	{
-		return contry;
-	}
+
 }
